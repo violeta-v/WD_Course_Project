@@ -1,0 +1,110 @@
+html{
+    height: 100%;
+    width: 100%;
+}
+html, body{
+padding: 0;
+margin: 0;
+}
+.promoBanner{
+    font-family: 'Lato', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1em;
+    letter-spacing: 2px;
+    color: #fff;              
+    text-align: center;
+    box-sizing: content-box;
+    background: #414141;
+    padding: 10px;
+    margin: auto;
+}
+.logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 100px;
+}
+div {
+    position: relative;
+    vertical-align: middle;
+    text-align: center;      
+}
+ul li{
+    display: inline-block;
+    padding: 15px 60px 0px 0px;   
+    margin: -4px;
+    font-size: 1.3em;
+    
+    height: 40px;
+    text-align: center;          
+}
+a{
+    color: #414042;
+    text-decoration: none;
+    font-size: 0.8em;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+h2{
+  font-family: 'Lato', sans-serif;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.3em;
+  color: #414042;              
+  text-align: center;
+}
+p{
+  font-family: 'Lato', sans-serif;
+  font-family: 'Poppins', sans-serif;
+  font-size: 0.8em;
+  color: #414042;              
+  text-align: center;
+  margin-left: 90px;
+  margin-right: 90px;
+  
+}
+
+.footer{
+    margin-top: 30px;
+    color: #fff;              
+    background: #414141;
+    padding: 40px;
+}
+#email{
+    border: 2px solid white;
+    background-color: #414041;
+    padding: 10px;
+    margin-bottom: 20px;
+    width: 250px;
+    font-size: 0.8em;
+  }
+  #footerButton{
+    border: 2px solid white;
+    background-color: #414041;
+    padding: 10px;
+    margin-bottom: 20px;
+    color: white;
+  }
+  #newsletterHeader{
+    font-size: 1.9em;
+    font-family: serif;
+    margin-top: 20px;
+    margin-bottom: 15px;
+  }
+  #newsletterCopy{
+    font-size: 1em;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 15px;
+  }
+  li:hover {
+    font-weight: 900;
+  }
+  a:hover {
+    font-weight: 900;
+  }
+  
+
+

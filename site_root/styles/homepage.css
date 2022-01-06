@@ -1,0 +1,199 @@
+html{
+    height: 100%;
+    width: 100%;
+}
+html, body{
+padding: 0;
+margin: 0;
+}
+.promoBanner{
+    font-family: 'Lato', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1em;
+    letter-spacing: 2px;
+    color: #fff;              
+    text-align: center;
+    box-sizing: content-box;
+    background: #414141;
+    padding: 10px;
+    margin: auto;
+}
+.logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 100px;
+}
+div {
+    position: relative;
+    vertical-align: middle;
+    text-align: center;      
+}
+ul li{
+    display: inline-block;
+    padding: 15px 60px 0px 0px;   
+    margin: -4px;
+    font-size: 1.3em;
+    
+    height: 40px;
+    text-align: center;          
+}
+a{
+    color: #414042;
+    text-decoration: none;
+    font-size: 0.8em;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+.button {
+    background-color: #fff;
+    border: none;
+    color: #414042;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;    
+}
+.inner .copy{
+    position: absolute;
+    top: 37%;
+    left: 50%;
+    transform: translate(-50%, -50%);  
+}
+.inner .cta1{
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);  
+    
+}
+.bannerImage{
+    width: 1294px;
+}
+
+.inner{
+    position: absolute;
+    top: 20%;
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+}
+.cta{
+    margin-top: 300px;
+}
+.copy{
+    margin-top: 250px;
+    color: #fff;
+    font-size: 1.7em;
+    font-family: serif;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+}
+.bannerImage2{
+    width: 412px;
+}
+.container{
+    margin-top: 620px;
+    margin-bottom: 30px;
+}
+.container1{
+    margin-right: 15px;
+    margin-left: 15px;
+}   
+.container1 .button2{
+    position: absolute;
+    top: 88%;
+    left: 50%;
+    transform: translate(-50%, -50%);       
+}
+.container1 .copy2{
+    position: absolute;
+    top: 76%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.cta2{
+    color: #fff;
+    font-size: 1.7em;
+    font-family: serif;
+    
+}
+.copy2{
+    margin-top: 0px;
+    color: #fff;
+    font-size: 1.7em;
+    font-family: serif;
+}
+.bottomBannerImage{
+   width: 1294px;
+}
+.copy3{
+    color: #fff;
+    font-size: 1.7em;
+    font-family: serif;
+}
+.inner2 .copy3{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);  
+}
+.inner2 .cta3{
+    position: absolute;
+    top: 88%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+}
+.copy3{
+      margin-top: 237px;
+} 
+.footer{
+    margin-top: 30px;
+    color: #fff;              
+    background: #414141;
+    padding: 40px;
+}
+#email{
+    border: 2px solid white;
+    background-color: #414041;
+    padding: 10px;
+    margin-bottom: 20px;
+    width: 250px;
+    font-size: 0.8em;
+  }
+  #footerButton{
+    border: 2px solid white;
+    background-color: #414041;
+    padding: 10px;
+    margin-bottom: 20px;
+    color: white;
+  }
+  #newsletterHeader{
+    font-size: 1.9em;
+    font-family: serif;
+    margin-top: 20px;
+    margin-bottom: 15px;
+  }
+  #newsletterCopy{
+    font-size: 1em;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 15px;
+  }
+  li:hover {
+    font-weight: 900;
+  }
+  a:hover {
+    font-weight: 900;
+  }
+  
+
+
