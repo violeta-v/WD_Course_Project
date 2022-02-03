@@ -10,6 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,700&family=Poppins:wght@300&display=swap" rel="stylesheet">
         <title>YogaMats</title>
         <link rel="stylesheet" href="../styles/yoga_mats.css">
+
         
 </head>
 <body>
@@ -30,7 +31,7 @@
    <main>
         <h2>YOGA MATS</h2>
         <div class="mats">
-            <div class="yoga mat1"><img src="../images/yoga-mats-mat-2-purple.jpg" alt="yoga mat grey"></div>
+            <div class="yoga mat1"><img id="canvas" src="../images/yoga-mats-mat-2-purple.jpg" alt="yoga mat grey"></div>
                 <div class="productDescription">
                     <h3>PRODUCT NAME</h3> 
                     <hr>
@@ -39,9 +40,9 @@
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita dolorum dolorem ab tempora deserunt, facilis, vitae ea suscipit dignissimos fugit non autem! Veniam nam fuga ut in aliquam possimus ab.Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita dolorum dolorem ab tempora deserunt, facilis, vitae ea suscipit dignissimos fugit non autem! Veniam nam fuga ut in aliquam possimus ab. Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita dolorum dolorem ab tempora deserunt.</p>
                     <form action="#">
                         <label class="colourCopy" for="colour">Colour:</label> <br>
-                        <select class="colour" name="colour">
-                        <option value="purple">Purple</option>
-                        <option value="Pink">Pink</option>
+                        <select name="imageList" onchange="displayImage(this);" class="colour">
+                        <option value="../images/yoga-mats-mat-2-purple.jpg">Purple</option>
+                        <option value="../images/yoga-mats-mat-2.2-pink.jpg">Pink</option>
                         </select>
                     </form>
                     <form action="#">
@@ -57,7 +58,7 @@
         </div>
 
         <div class="mats">
-            <div class="yoga mat1"><img src="../images/yoga-mats-mat-3-green.jpg" alt="yoga mat grey"></div>
+            <div class="yoga mat1"><img id="canvastwo" src="../images/yoga-mats-mat-3-green.jpg" alt="yoga mat grey"></div>
                 <div class="productDescription">
                     <h3>PRODUCT NAME</h3> 
                     <hr>
@@ -66,9 +67,9 @@
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita dolorum dolorem ab tempora deserunt, facilis, vitae ea suscipit dignissimos fugit non autem! Veniam nam fuga ut in aliquam possimus ab.Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita dolorum dolorem ab tempora deserunt, facilis, vitae ea suscipit dignissimos fugit non autem! Veniam nam fuga ut in aliquam possimus ab. Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita dolorum dolorem ab tempora deserunt.</p>
                     <form action="#">
                         <label class="colourCopy" for="colour">Colour:</label> <br>
-                        <select class="colour" name="colour">
-                            <option value="green">Green</option>
-                            <option value="blue">Blue</option>
+                        <select class="colour" name="imageList" onchange="displayImageTwo(this);">
+                            <option value="../images/yoga-mats-mat-3-green.jpg">Green</option>
+                            <option value="../images/yoga-mats-mat-3.2-blue.jpg">Blue</option>
                         </select>
                     </form>
                     <form action="#">
@@ -130,6 +131,9 @@
         </div>
 
     </footer>
+    <script src="../js/yogaMatsFunction.js" >
+        
+    </script>
 
     </body>
     

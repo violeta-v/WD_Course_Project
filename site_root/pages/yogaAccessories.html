@@ -46,32 +46,32 @@
                     </div>
             </div>
             <div class="container">
-                <div class="yoga accessories"><img class="image" src="../images/yoga-accessories-strap-blue-updated-2.jpg" alt="yoga strap"></div>
+                <div class="yoga accessories"><img id="imageOne" class="image" src="../images/yoga-accessories-strap-blue-updated-2.jpg" alt="yoga strap"></div>
                     <div class="productDescription">
                         <h3>YOGA STRAP</h3> 
                         <hr>
                         <h4>PRICE: £12</h4>        
                         <form action="#">
                             <label class="colourCopy" for="colour">Colour:</label> <br>
-                            <select class="colour" name="colour">
-                            <option value="purple">Blue</option>
-                            <option value="purple">Purple</option>
+                            <select name="imageList" onchange="displayImageOne(this);"  class="colour">
+                            <option value="../images/yoga-accessories-strap-blue-updated-2.jpg">Blue</option>
+                            <option value="../images/yoga-accessories-strap-purple.jpg">Purple</option>
                             </select>
                             <button class="formButton" type="submit">SHOP NOW</button>
                         </form>
                     </div>
             </div>
             <div class="container">
-                <div class="yoga accessories"><img class="image" src="../images/yoga-accessories-singing bowl-blue-large.jpg" alt="yoga singing bowl"></div>
+                <div class="yoga accessories"><img id="imageTwo" class="image" src="../images/yoga-accessories-singing bowl-blue-large.jpg" alt="yoga singing bowl"></div>
                     <div class="productDescription">
                         <h3>SINGING BOWL</h3> 
                         <hr>
                         <h4>PRICE: £25</h4>        
                         <form action="#">
                             <label class="colourCopy" for="colour">Colour:</label> <br>
-                            <select class="colour" name="colour">
-                            <option value="purple">Blue</option>
-                            <option value="purple">Green</option>
+                            <select name="imageList" onchange="displayImageTwo(this);" class="colour">
+                            <option value="../images/yoga-accessories-singing bowl-blue-large.jpg">Blue</option>
+                            <option value="../images/yoga-accessories-singing bowl-green-large.jpg">Green</option>
                             </select>
                             <button class="formButton" type="submit">SHOP NOW</button>
                         </form>
@@ -99,6 +99,10 @@
         </div>
 
     </footer>
+
+    <script src="../js/yogaAccessories.js" >
+        
+    </script>
 
     </body>
     
