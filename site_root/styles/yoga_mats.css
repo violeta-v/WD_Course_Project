@@ -31,6 +31,11 @@ div {
     vertical-align: middle;
     text-align: center;      
 }
+nav{
+    position: relative;
+    vertical-align: middle;
+    text-align: center;
+}
 ul li{
     display: inline-block;
     padding: 15px 60px 0px 0px;   
@@ -119,7 +124,7 @@ p{
     color: #414042;
     width: 35vw;
     border-radius: 5px;
-  }
+}
 .qty{
     font-family: 'Lato', sans-serif;
     font-family: 'Poppins', sans-serif;
@@ -130,8 +135,8 @@ p{
     margin-bottom: 20px;
     color: #414042;
     width: 10vw;      
-  }
-  .formButton{
+}
+.formButton{
     font-family: 'Lato', sans-serif;
     font-family: 'Poppins', sans-serif;
     font-size: 0.8em;
@@ -141,10 +146,10 @@ p{
     margin-bottom: 20px;
     color: #414042;
     width: 10vw; 
-  }
+}
 .formButton:hover {
     font-weight: 900;
-  }
+}
  
 .footer{
     margin-top: 30px;
@@ -159,29 +164,29 @@ p{
     margin-bottom: 20px;
     width: 250px;
     font-size: 0.8em;
-  }     
-  #footerButton{
+}     
+#footerButton{
     border: 2px solid white;
     background-color: #414041;
     padding: 10px;
     margin-bottom: 20px;
     color: white;
-  }
-  #newsletterHeader{
+}
+#newsletterHeader{
     font-size: 1.9em;
     font-family: serif;
     margin-top: 20px;
     margin-bottom: 15px;
-  }
-  #newsletterCopy{
+}
+#newsletterCopy{
     font-size: 1em;
     font-family: 'Lato', sans-serif;
     font-family: 'Poppins', sans-serif;
     margin-bottom: 15px;
-  }
-  li:hover {
+}
+li:hover {
     font-weight: 900;
-  }
-  a:hover {
+}
+a:hover {
     font-weight: 900;
-  }
+}
