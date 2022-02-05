@@ -4,14 +4,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="device-width, initial-scale=1.0">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,700&family=Poppins:wght@300&display=swap" rel="stylesheet">
         <title>YogaMats</title>
         <link rel="stylesheet" href="../styles/yoga_mats.css">
 
-        
+
 </head>
 <body>
     <header>
@@ -33,16 +33,19 @@
         <div class="mats">
             <div class="yoga mat1"><img id="canvas" src="../images/yoga-mats-mat-2-purple.jpg" alt="yoga mat grey"></div>
                 <div class="productDescription">
-                    <h3>PRODUCT NAME</h3> 
+                    <h3>PRODUCT NAME</h3>
                     <hr>
                     <h4>PRICE: £20</h4>
                     <h5>Product description</h5>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita dolorum dolorem ab tempora deserunt, facilis, vitae ea suscipit dignissimos fugit non autem! Veniam nam fuga ut in aliquam possimus ab.Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita dolorum dolorem ab tempora deserunt, facilis, vitae ea suscipit dignissimos fugit non autem! Veniam nam fuga ut in aliquam possimus ab. Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita dolorum dolorem ab tempora deserunt.</p>
                     <form action="#">
                         <label class="colourCopy" for="colour">Colour:</label> <br>
-                        <select name="imageList" onchange="displayImage(this);" class="colour">
-                        <option value="../images/yoga-mats-mat-2-purple.jpg">Purple</option>
-                        <option value="../images/yoga-mats-mat-2.2-pink.jpg">Pink</option>
+                        <select name="imageList" class="colour">
+
+                        <!-- iep: no need to pass path.
+                        Best practice: use data-* attributes to pass data to JS -->
+                        <option value="yoga-mats-mat-2-purple.jpg">Purple</option>
+                        <option value="yoga-mats-mat-2.2-pink.jpg">Pink</option>
                         </select>
                     </form>
                     <form action="#">
@@ -60,16 +63,16 @@
         <div class="mats">
             <div class="yoga mat1"><img id="canvastwo" src="../images/yoga-mats-mat-3-green.jpg" alt="yoga mat grey"></div>
                 <div class="productDescription">
-                    <h3>PRODUCT NAME</h3> 
+                    <h3>PRODUCT NAME</h3>
                     <hr>
                     <h4>PRICE: £20</h4>
                     <h5>Product description</h5>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita dolorum dolorem ab tempora deserunt, facilis, vitae ea suscipit dignissimos fugit non autem! Veniam nam fuga ut in aliquam possimus ab.Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita dolorum dolorem ab tempora deserunt, facilis, vitae ea suscipit dignissimos fugit non autem! Veniam nam fuga ut in aliquam possimus ab. Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita dolorum dolorem ab tempora deserunt.</p>
                     <form action="#">
                         <label class="colourCopy" for="colour">Colour:</label> <br>
-                        <select class="colour" name="imageList" onchange="displayImageTwo(this);">
-                            <option value="../images/yoga-mats-mat-3-green.jpg">Green</option>
-                            <option value="../images/yoga-mats-mat-3.2-blue.jpg">Blue</option>
+                        <select class="colour" name="imageList" >
+                            <option value="yoga-mats-mat-3-green.jpg">Green</option>
+                            <option value="yoga-mats-mat-3.2-blue.jpg">Blue</option>
                         </select>
                     </form>
                     <form action="#">
@@ -87,7 +90,7 @@
         <div class="mats">
             <div class="yoga mat1"><img src="../images/yoga-mats-mat-1.jpg" alt="yoga mat grey"></div>
                 <div class="productDescription">
-                    <h3>PRODUCT NAME</h3> 
+                    <h3>PRODUCT NAME</h3>
                     <hr>
                     <h4>PRICE: £20</h4>
                     <h5>Product description</h5>
@@ -116,7 +119,7 @@
             <div id="newsletterHeader"> Join Our Newsletter</div>
             <div id="newsletterCopy">Sign up for the ... newsletter to receive exclusive offers <br> and discover the stories behind our products.</div>
             <form name="registerForm" class="formBlock">
-                <input type="email" id="email" name="email" placeholder="Enjoy 10% off your first order*" value=""> 
+                <input type="email" id="email" name="email" placeholder="Enjoy 10% off your first order*" value="">
                 <button id="footerButton" type="submit">SUBMIT </button>
             </form>
         </div>
@@ -131,11 +134,9 @@
         </div>
 
     </footer>
-    <script src="../js/yogaMatsFunction.js" >
-        
-    </script>
+    <script src="../js/iepMain.js"></script>
 
     </body>
-    
+
 
 </html>

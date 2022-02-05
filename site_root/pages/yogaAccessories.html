@@ -4,13 +4,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="device-width, initial-scale=1.0">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,700&family=Poppins:wght@300&display=swap" rel="stylesheet">
         <title>YogaAccessories</title>
         <link rel="stylesheet" href="../styles/yoga-accessories.css">
-        
+
 </head>
 <body>
     <header>
@@ -29,13 +29,18 @@
     </header>
    <main>
         <h2>YOGA ACCESSORIES</h2>
+        <!-- iep: class
+        <div class="products">
+            <div class="product-container"></div>
+            <div class="product-container"></div>
+        </div> -->
         <div class="allProducts">
             <div class="container">
                 <div class="yoga accessories"><img class="image" src="../images/yoga-accessories-bolster-updated.jpg" alt="yoga-block"></div>
                     <div class="productDescription">
-                        <h3>YOGA BLOCK</h3> 
+                        <h3>YOGA BLOCK</h3>
                         <hr>
-                        <h4>PRICE: £15</h4>        
+                        <h4>PRICE: £15</h4>
                         <form action="#">
                             <label class="colourCopy" for="colour">Colour:</label> <br>
                             <select class="colour" name="colour">
@@ -48,9 +53,9 @@
             <div class="container">
                 <div class="yoga accessories"><img id="imageOne" class="image" src="../images/yoga-accessories-strap-blue-updated-2.jpg" alt="yoga strap"></div>
                     <div class="productDescription">
-                        <h3>YOGA STRAP</h3> 
+                        <h3>YOGA STRAP</h3>
                         <hr>
-                        <h4>PRICE: £12</h4>        
+                        <h4>PRICE: £12</h4>
                         <form action="#">
                             <label class="colourCopy" for="colour">Colour:</label> <br>
                             <select name="imageList" onchange="displayImageOne(this);"  class="colour">
@@ -64,9 +69,9 @@
             <div class="container">
                 <div class="yoga accessories"><img id="imageTwo" class="image" src="../images/yoga-accessories-singing bowl-blue-large.jpg" alt="yoga singing bowl"></div>
                     <div class="productDescription">
-                        <h3>SINGING BOWL</h3> 
+                        <h3>SINGING BOWL</h3>
                         <hr>
-                        <h4>PRICE: £25</h4>        
+                        <h4>PRICE: £25</h4>
                         <form action="#">
                             <label class="colourCopy" for="colour">Colour:</label> <br>
                             <select name="imageList" onchange="displayImageTwo(this);" class="colour">
@@ -84,7 +89,7 @@
             <div id="newsletterHeader"> Join Our Newsletter</div>
             <div id="newsletterCopy">Sign up for the ... newsletter to receive exclusive offers <br> and discover the stories behind our products.</div>
             <form name="registerForm" class="formBlock">
-                <input type="email" id="email" name="email" placeholder="Enjoy 10% off your first order*" value=""> 
+                <input type="email" id="email" name="email" placeholder="Enjoy 10% off your first order*" value="">
                 <button id="footerButton" type="submit">SUBMIT </button>
             </form>
         </div>
@@ -101,10 +106,10 @@
     </footer>
 
     <script src="../js/yogaAccessories.js" >
-        
+
     </script>
 
     </body>
-    
+
 
 </html>
