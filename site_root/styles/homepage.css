@@ -11,7 +11,7 @@ margin: 0;
     font-family: 'Poppins', sans-serif;
     font-size: 1em;
     letter-spacing: 2px;
-    color: #fff;              
+    color: #fff;
     text-align: center;
     box-sizing: content-box;
     background: #414141;
@@ -26,19 +26,24 @@ margin: 0;
     margin-bottom: 20px;
     height: 100px;
 }
+/* iep: not good to apply this style to all divs. Use more specific selectors */
 div {
     position: relative;
     vertical-align: middle;
-    text-align: center;      
+    text-align: center;
 }
+nav{
+    text-align: center;
+}
+
 ul li{
     display: inline-block;
-    padding: 15px 60px 0px 0px;   
+    padding: 15px 60px 0px 0px;
     margin: -4px;
     font-size: 1.3em;
-    
+
     height: 40px;
-    text-align: center;          
+    text-align: center;
 }
 a{
     color: #414042;
@@ -56,20 +61,20 @@ a{
     text-decoration: none;
     font-size: 16px;
     margin: 4px 2px;
-    cursor: pointer;    
+    cursor: pointer;
 }
 .inner .copy{
     position: absolute;
     top: 37%;
     left: 50%;
-    transform: translate(-50%, -50%);  
+    transform: translate(-50%, -50%);
 }
 .inner .cta1{
     position: absolute;
     top: 90%;
     left: 50%;
-    transform: translate(-50%, -50%);  
-    
+    transform: translate(-50%, -50%);
+
 }
 .bannerImage{
     width: 1294px;
@@ -95,7 +100,7 @@ a{
 .container{
     display: flex;
     align-items: center;
-    justify-content: center;   
+    justify-content: center;
 }
 .bannerImage2{
     width: 412px;
@@ -107,12 +112,12 @@ a{
 .container1{
     margin-right: 15px;
     margin-left: 15px;
-}   
+}
 .container1 .button2{
     position: absolute;
     top: 88%;
     left: 50%;
-    transform: translate(-50%, -50%);       
+    transform: translate(-50%, -50%);
 }
 .container1 .copy2{
     position: absolute;
@@ -124,7 +129,7 @@ a{
     color: #fff;
     font-size: 1.7em;
     font-family: serif;
-    
+
 }
 .copy2{
     margin-top: 0px;
@@ -144,20 +149,20 @@ a{
     position: absolute;
     top: 30%;
     left: 50%;
-    transform: translate(-50%, -50%);  
+    transform: translate(-50%, -50%);
 }
 .inner2 .cta3{
     position: absolute;
     top: 88%;
     left: 50%;
-    transform: translate(-50%, -50%); 
+    transform: translate(-50%, -50%);
 }
 .copy3{
       margin-top: 237px;
-} 
+}
 .footer{
     margin-top: 30px;
-    color: #fff;              
+    color: #fff;
     background: #414141;
     padding: 40px;
 }
@@ -194,6 +199,6 @@ a{
   a:hover {
     font-weight: 900;
   }
-  
+
 
 
